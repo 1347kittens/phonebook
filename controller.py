@@ -92,11 +92,11 @@ class Controller:
             show_menu()
             choice = get_input("Введите пункт меню: ")
 
-            if choice in ("2", "3", "4", "5", "6", "7") \
-                    and self.phonebook.contacts is None:
-                show_message(
-                    "Необходимо открыть файл справочника — выберите пункт 1"
-                )
+            if (
+                choice in ("2", "3", "4", "5", "6", "7")
+                and self.phonebook.contacts is None
+            ):
+                show_message("Необходимо открыть файл справочника — выберите пункт 1")
                 continue
 
             try:

@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .idea/
 .venv/
+.pytest_cache/
+testing/test_contacts.json

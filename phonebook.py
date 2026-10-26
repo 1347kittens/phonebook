@@ -5,7 +5,6 @@ from pathlib import Path
 from controller import Controller
 from model import FileReader, FileWriter, PhoneBook
 
-
 PROJECT_DIR = Path(__file__).parent
 FILE_PATH = PROJECT_DIR / "contacts.json"
 
